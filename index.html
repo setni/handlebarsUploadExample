@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Handlebars action example</title>
+<link rel="stylesheet" type="text/css" href="CSS/index.css">
+<script type="text/javascript" src="JS/jquery.js"></script>
+<script type="text/javascript" src="JS/handlebars-v4.0.5.js"></script>
+<script id="file-upload-template" type="text/x-handlebars-template">
+  <li class="removable_row">
+      <div class="file-field">
+        <input class="file" id="{{field_id}}" name="{{field_name}}" type="file" />
+      </div>
+      {{#if allowRemove}}
+      <i alt="Remove" title="Remove" class="remove-link">REMOVE<i/>
+      {{/if}}
+  </li>
+</script>
+
+</head>
+    
+<body>
+<h1>Handlebars action example</h1>
+<form action="javascript:return false;">
+    <div class="file-uploader">
+        
+    </div>
+</form>
+<script type="text/javascript" src="JS/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+.mfu-file-list {
+  list-style: none;
+  width: 500px;
+    padding:0;
+  
+  .file-field,
+  .remove-link,
+  input[type="file"] {
+    display: inline-block;
+  }
+  
+  .remove-link {
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+  }
+  
+}
+
+.mfu-add-new {
+    border:none;
+    border-radius:2px;
+    border: 1px solid black;
+    cursor:pointer;
+    transition:all .4s;
+    width:180px;
+    height:25px;
+    background:white;
+    color:BLACK;
+    font-size:16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.mfu-add-new:hover {
+    background:black;
+    color:#fff;
+}
+    
